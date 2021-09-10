@@ -1,0 +1,23 @@
+{
+  "preset": "ts-jest",
+  "rootDir": "./tests",
+  "clearMocks": true,
+  "collectCoverage": false,
+  "coverageDirectory": "./coverage",
+  "coveragePathIgnorePatterns": [
+    "/node_modules/"
+  ],
+  "coverageProvider": "v8",
+  "testMatch": [
+    "**/?(*.)+(spec|test).ts"
+  ],
+  "testPathIgnorePatterns": [
+    "/node_modules/"
+  ],
+  "moduleFileExtensions": ["js", "ts"],
+  "reporters": ["default"],
+  "transform": {
+    "\\.ts$": "ts-jest"
+  }
+}
+
